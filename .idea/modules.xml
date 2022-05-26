@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/BarkingDog/BarkingDog.iml" filepath="$PROJECT_DIR$/Java MasterClass/BarkingDog/BarkingDog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/BitCoinRudderAnalytics/BitCoinRudderAnalytics.iml" filepath="$PROJECT_DIR$/Java MasterClass/BitCoinRudderAnalytics/BitCoinRudderAnalytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/Java MasterClass/ByteShortIntLong/ByteShortIntLong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/CharAndBoolean/CharAndBoolean.iml" filepath="$PROJECT_DIR$/Java MasterClass/CharAndBoolean/CharAndBoolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/DayOfWeek/DayOfWeek.iml" filepath="$PROJECT_DIR$/Java MasterClass/DayOfWeek/DayOfWeek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/DecimalComparator/DecimalComparator.iml" filepath="$PROJECT_DIR$/Java MasterClass/DecimalComparator/DecimalComparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/EqualSumChecker/EqualSumChecker.iml" filepath="$PROJECT_DIR$/Java MasterClass/EqualSumChecker/EqualSumChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/EqualityPrinter/EqualityPrinter.iml" filepath="$PROJECT_DIR$/Java MasterClass/EqualityPrinter/EqualityPrinter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/FloatAndDouble/FloatAndDouble.iml" filepath="$PROJECT_DIR$/Java MasterClass/FloatAndDouble/FloatAndDouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/ForStatement/ForStatement.iml" filepath="$PROJECT_DIR$/Java MasterClass/ForStatement/ForStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/Hello World/Hello World.iml" filepath="$PROJECT_DIR$/Java MasterClass/Hello World/Hello World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/Java MasterClass.iml" filepath="$PROJECT_DIR$/Java MasterClass/Java MasterClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_MasterClass_Udemy.iml" filepath="$PROJECT_DIR$/.idea/Java_MasterClass_Udemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/LeapYearCalculator/LeapYearCalculator.iml" filepath="$PROJECT_DIR$/Java MasterClass/LeapYearCalculator/LeapYearCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/MegaByteConverter/MegaByteConverter.iml" filepath="$PROJECT_DIR$/Java MasterClass/MegaByteConverter/MegaByteConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/MethodOverloading/MethodOverloading.iml" filepath="$PROJECT_DIR$/Java MasterClass/MethodOverloading/MethodOverloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/NumberInWord/NumberInWord.iml" filepath="$PROJECT_DIR$/Java MasterClass/NumberInWord/NumberInWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/NumberOfDaysInMonth/NumberOfDaysInMonth.iml" filepath="$PROJECT_DIR$/Java MasterClass/NumberOfDaysInMonth/NumberOfDaysInMonth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/OperatorsChallenege/OperatorsChallenege.iml" filepath="$PROJECT_DIR$/Java MasterClass/OperatorsChallenege/OperatorsChallenege.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/PlayingCat/PlayingCat.iml" filepath="$PROJECT_DIR$/Java MasterClass/PlayingCat/PlayingCat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/PrimitiveTypesChallenge/PrimitiveTypesChallenge.iml" filepath="$PROJECT_DIR$/Java MasterClass/PrimitiveTypesChallenge/PrimitiveTypesChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/Reading_User_Input/Reading_User_Input.iml" filepath="$PROJECT_DIR$/Java MasterClass/Reading_User_Input/Reading_User_Input.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/SecondsAndMinutes/SecondsAndMinutes.iml" filepath="$PROJECT_DIR$/Java MasterClass/SecondsAndMinutes/SecondsAndMinutes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/SpeedConverter/SpeedConverter.iml" filepath="$PROJECT_DIR$/Java MasterClass/SpeedConverter/SpeedConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/SumOdd/SumOdd.iml" filepath="$PROJECT_DIR$/Java MasterClass/SumOdd/SumOdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/SwitchCase/SwitchCase.iml" filepath="$PROJECT_DIR$/Java MasterClass/SwitchCase/SwitchCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/TeenNumberChecker/TeenNumberChecker.iml" filepath="$PROJECT_DIR$/Java MasterClass/TeenNumberChecker/TeenNumberChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/ThreeAndFive/ThreeAndFive.iml" filepath="$PROJECT_DIR$/Java MasterClass/ThreeAndFive/ThreeAndFive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/Toys/Toys.iml" filepath="$PROJECT_DIR$/Java MasterClass/Toys/Toys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/WhileDowhile/WhileDowhile.iml" filepath="$PROJECT_DIR$/Java MasterClass/WhileDowhile/WhileDowhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/ifElse/ifElse.iml" filepath="$PROJECT_DIR$/Java MasterClass/ifElse/ifElse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/positiveNegativeZero/positiveNegativeZero.iml" filepath="$PROJECT_DIR$/Java MasterClass/positiveNegativeZero/positiveNegativeZero.iml" />
+    </modules>
+  </component>
+</project>
