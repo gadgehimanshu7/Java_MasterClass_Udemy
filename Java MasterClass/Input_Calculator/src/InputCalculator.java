@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class InputCalculator {
     public static void inputThenPrintSumAndAverage() {
-        int sum = 0;
+       int sum = 0;
         int counter = 0;
+       double avg1;
+       int avg = 0;
         Scanner sc = new Scanner(System.in);
 
  /*       for (int i = 0; i < 3; i++) {
@@ -26,8 +28,10 @@ public class InputCalculator {
             sc.close();
     }
 }
-*/
-        while (true){
+*/        //USING WHILE LOOP
+
+
+ /*       while (true){
             int order=counter+1;
             System.out.print("Enter number #"+order+":");
             boolean isAnInt=sc.hasNextInt();
@@ -45,6 +49,25 @@ public class InputCalculator {
             sc.nextLine();
         }
         System.out.println(sum);
+        sc.close();
+    }
+}
+*/
+        while(true) {
+            boolean isAnInt=sc.hasNextInt();
+            if (isAnInt){
+            int number = sc.nextInt();
+            counter++;
+            sum=sum+number;
+            avg1=(double)sum/counter;
+            avg=(int)Math.round(avg1);
+        }if (!isAnInt){
+                System.out.println("SUM = "+sum+" AVG = "+avg);
+                break;
+            }
+
+
+        }
         sc.close();
     }
 }
