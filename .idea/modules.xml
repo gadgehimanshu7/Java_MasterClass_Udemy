@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java MasterClass/Bank_Account_Challenge/Bank_Account_Challenge.iml" filepath="$PROJECT_DIR$/Java MasterClass/Bank_Account_Challenge/Bank_Account_Challenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java MasterClass/BarkingDog/BarkingDog.iml" filepath="$PROJECT_DIR$/Java MasterClass/BarkingDog/BarkingDog.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java MasterClass/BitCoinRudderAnalytics/BitCoinRudderAnalytics.iml" filepath="$PROJECT_DIR$/Java MasterClass/BitCoinRudderAnalytics/BitCoinRudderAnalytics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java MasterClass/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/Java MasterClass/ByteShortIntLong/ByteShortIntLong.iml" />
