@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Email: "+bankAccount.getEmail()+"\n");
         System.out.println("Deposited amount is : "+bankAccount.getDeposit()+"\n");
         System.out.println("previous Balance is : "+bankAccount.getBalance()+"\n");
-        bankAccount.Deposit();
+        bankAccount.Deposit() ;
         bankAccount.Withdraw();
     }
 }
