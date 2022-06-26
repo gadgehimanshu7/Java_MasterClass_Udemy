@@ -22,7 +22,7 @@ public class BankAccount {
         this.email=email;
         this.custName=custName;
         this.phNo=phNo;
-        System.out.println("");
+       // System.out.println("");
     }
 
     //Another constructor....
