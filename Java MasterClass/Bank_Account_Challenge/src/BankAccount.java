@@ -1,29 +1,47 @@
-import java.util.Scanner;
-
 public class BankAccount {
 
-    int totalAmount=0;
+    //int totalAmount=0;
     private long accountNo;
-    private int balance;
+    private double balance;
     private String custName;
     private String email;
     private String phNo;
-    private int deposit;
+
+    //calling constructor in constructor.....
+
+    public BankAccount(){
+        this(12345678,50000,"Hima","abc@gmail.com","9767179338");   //this line calls the 2nd constructor.
+        System.out.println("constructor in constructor called....");
+    }
+
+    //Declaring constructor
+    public BankAccount(long accountNo,double balance, String custName, String email, String phNo){
+        System.out.println("Parametrized Constructor called....");
+        this.balance=balance;
+        this.accountNo=accountNo;
+        this.email=email;
+        this.custName=custName;
+        this.phNo=phNo;
+        System.out.println("");
+    }
+
+    //Another constructor....
+
+    public BankAccount(String custName,String email, String phNo){
+        this(987654321,30000,custName,email,phNo);
+        System.out.println("third constr called....!!!!");
+    }
 
     public long getAccountNo() {
         return accountNo;
     }
 
-    public int getBalance() {
+    public double getBalance() {
         return balance;
     }
 
     public String getPhNo() {
         return phNo;
-    }
-
-    public int getDeposit() {
-        return deposit;
     }
 
     public String getCustName() {
@@ -38,7 +56,7 @@ public class BankAccount {
         this.accountNo = accountNo;
     }
 
-    public void setBalance(int balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 
@@ -54,36 +72,23 @@ public class BankAccount {
         this.phNo = phNo;
     }
 
-    public void setDeposit(int deposit) {
-        this.deposit = deposit;
+    public void deposit(double depositAmount) {
+
+        this.balance += depositAmount;
+        System.out.println("amount deposited is" + depositAmount + "\nNew balance is" + balance);
     }
+        public void withdraw(double withdraw){
 
-    public void Deposit() {
+            //  Scanner scanner = new Scanner(System.in);
+            //  System.out.println("Enter the amount to withdraw: ");
+            //int amount = scanner.nextInt();
+            if (balance - withdraw < 0) {
+                System.out.println("insufficient balance");
+                System.out.println("current balance is = " + balance);
 
-       // Scanner scanner = new Scanner(System.in);
-        //System.out.print("Enter the amount to deposit: ");
-      //  deposit = scanner.nextInt();
-        totalAmount=deposit+balance;
-
-        //System.out.println("Deposited amount is = " + deposit);
-        System.out.println("Total Balance is = "+totalAmount+"\n");
-
-    }
-
-    public void Withdraw() {
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the amount to withdraw: ");
-        int amount = scanner.nextInt();
-        if (amount > totalAmount) {
-            System.out.println("insufficient balance");
-            System.out.println("Remaining balance is = " + totalAmount);
-
-        } else {
-            balance = totalAmount - amount;
-            System.out.println("Remaining balance is = " + balance);
+            } else {
+                balance = balance - withdraw;
+                System.out.println("Remaining balance is = " + balance);
+            }
         }
-
-
-    }
 }
