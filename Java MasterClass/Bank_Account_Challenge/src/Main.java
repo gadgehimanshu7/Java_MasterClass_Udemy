@@ -27,6 +27,6 @@ public class Main {
         System.out.println("Contact Number: "+bankAccount.getPhNo()+"\n");
         System.out.println("Email: "+bankAccount.getEmail()+"\n");
    */     bankAccount.deposit(5000);
-        bankAccount.withdraw(6000);
+        bankAccount.withdraw(55000);
     }
 }
