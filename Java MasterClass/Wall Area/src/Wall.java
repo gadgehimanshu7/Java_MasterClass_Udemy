@@ -38,9 +38,7 @@ public class Wall {
     }
 
     public double getArea(){
-        double areaOfWall=0;
-        areaOfWall=width*height;
-        return areaOfWall;
+        return width*height;
     }
 }
 
