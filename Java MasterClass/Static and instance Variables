@@ -1,0 +1,40 @@
+Static :
+1. declared by using keyword static.
+2. every instance of class shares same static variables.
+3. if changes made to variable. then all the instances of class will see the change.
+4. No instance of need to exist in order to access static variable.
+        no need to create any reference for class.
+5. Uses:- Storing constant values like pi.
+          storing counters
+          generating unique Id's
+
+6. Static variables are shared between instances.
+
+    class Dog{
+    private static String name;
+    public Dog(String name)
+    this.name= name;
+    }
+    public void printName()
+    {
+    sout()
+    }
+    Dog rex=new Dog('rex');
+    Dog fluf=new Dog('fluf');
+    rex.printName();        //will print fluf
+    fluf.printName();       //will print fluf
+
+    --point 3. once change the static variable, all instances will be changed.
+
+
+Instance variable:-
+
+1. dont use static keyword when defining.
+2. also known as field or member variable.
+3. belongs to specific instance of class.
+4. every instance can have a diff value.
+
+        Dog rex=new Dog('rex');
+        Dog fluf=new Dog('fluf');
+        rex.printName();        //will print rex
+        fluf.printName();       //will print fluf
