@@ -38,3 +38,39 @@ Instance variable:-
         Dog fluf=new Dog('fluf');
         rex.printName();        //will print rex
         fluf.printName();       //will print fluf
+
+METHODS----
+
+STATIC METHOD:
+
+1. Stati methods are declared using static modifier.
+2. Static methods cant access instance methods and instant variables directly.
+3. "this" keyword is current instance of class.
+        In static method, we cannot use 'this' keyword.
+
+4. method which doesnot use instance variable, that method declared as static .
+    5. 'main' is a static method and is called by jvm, when it starts java application.
+
+        static method are called by 'classname.methodname();' or 'methodname();' if in same class.
+
+        class cal{
+            public static void sum(int a , int b){
+                println("sum" + (a+b));
+            }
+        }
+        class main{
+            p s v m (s args[]){
+                cal.sum(4,5);       //method 1 to print static
+                printHello();       //method 2 to print static if declared in same class.
+            }
+            p s v printHello(){     // static method declared in main class.
+                s out("Hello");
+            }
+        }
+
+
+INSTANCE METHOD:
+
+1. belongs to instance of class.
+2. can access insctance method and variables directly as well as static methods and static variables.(no need to use classname or annotation)
+3.
